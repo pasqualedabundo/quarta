@@ -2,6 +2,7 @@
 #include <stdio.h>
 #define MAX 10
 int coda[MAX];
+int main(){
 int inizio = -1;
 int fine = -1;
 // Controllo coda vuota
@@ -58,3 +59,4 @@ void stampa() {
  printf("\n");
 }
  
+}
